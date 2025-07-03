@@ -79,86 +79,29 @@ Custo total: 7
 Caminho: 1 -> 5
 ```
 
-## 8. Exemplos de Entrada e Saída
+## 8. Exemplo prático: caminho entre cidades
 
-Abaixo estão cinco cenários de execução, mostrando as entradas fornecidas e a saída obtida.
+Neste exemplo, consideramos o grafo com 10 vértices que representam cidades brasileiras fictícias:
 
-### Exemplo 1
+| Índice | Cidade           |
+|--------|------------------|
+| 1      | Porto Alegre     |
+| 2      | Florianópolis    |
+| 3      | Curitiba         |
+| 4      | São Paulo        |
+| 5      | Rio de Janeiro   |
+| 6      | Belo Horizonte   |
+| 7      | Brasília         |
+| 8      | Salvador         |
+| 9      | Fortaleza        |
+| 10     | Recife           |
+
+### Exemplo de execução
+
 ```bash
-./grafos
-Numero de arestas: 5
-Aresta 1 (origem destino peso): 1 2 10
-Aresta 2 (origem destino peso): 2 3 5
-Aresta 3 (origem destino peso): 3 4 2
-Aresta 4 (origem destino peso): 4 5 3
-Aresta 5 (origem destino peso): 5 1 7
-Vertice de origem (1-10): 1
-Vertice de destino (1-10): 5
-Custo total: 7
-Caminho: 1 -> 5
-```
-
-### Exemplo 2
-```bash
-./grafos
-Numero de arestas: 4
-Aresta 1 (origem destino peso): 1 2 1
-Aresta 2 (origem destino peso): 2 3 2
-Aresta 3 (origem destino peso): 3 4 3
-Aresta 4 (origem destino peso): 4 1 4
-Vertice de origem (1-10): 1
-Vertice de destino (1-10): 3
-Custo total: 3
-Caminho: 1 -> 2 -> 3
-```
-
-### Exemplo 3
-```bash
-./grafos
-Numero de arestas: 6
-Aresta 1 (origem destino peso): 1 2 4
-Aresta 2 (origem destino peso): 2 3 6
-Aresta 3 (origem destino peso): 3 4 5
-Aresta 4 (origem destino peso): 1 4 20
-Aresta 5 (origem destino peso): 2 4 2
-Aresta 6 (origem destino peso): 2 5 3
-Vertice de origem (1-10): 1
-Vertice de destino (1-10): 4
-Custo total: 6
-Caminho: 1 -> 2 -> 4
-```
-
-### Exemplo 4
-```bash
-./grafos
-Numero de arestas: 7
-Aresta 1 (origem destino peso): 1 2 1
-Aresta 2 (origem destino peso): 2 4 2
-Aresta 3 (origem destino peso): 1 3 4
-Aresta 4 (origem destino peso): 3 4 1
-Aresta 5 (origem destino peso): 4 5 5
-Aresta 6 (origem destino peso): 5 6 1
-Aresta 7 (origem destino peso): 3 6 7
-Vertice de origem (1-10): 1
-Vertice de destino (1-10): 6
-Custo total: 9
-Caminho: 1 -> 2 -> 4 -> 5 -> 6
-```
-
-### Exemplo 5
-```bash
-./grafos
-Numero de arestas: 8
-Aresta 1 (origem destino peso): 1 2 3
-Aresta 2 (origem destino peso): 1 3 2
-Aresta 3 (origem destino peso): 2 4 4
-Aresta 4 (origem destino peso): 3 4 1
-Aresta 5 (origem destino peso): 4 5 6
-Aresta 6 (origem destino peso): 5 6 2
-Aresta 7 (origem destino peso): 4 6 8
-Aresta 8 (origem destino peso): 1 6 15
-Vertice de origem (1-10): 1
-Vertice de destino (1-10): 5
-Custo total: 9
-Caminho: 1 -> 3 -> 4 -> 5
-```
+Escolha o grafo de teste:
+1 - Grafo Joinville-BH
+2 - Outro grafo de exemplo
+Opcao: 2
+Vertice de origem (1-10): 3
+Vertice de destino (1-10): 10
