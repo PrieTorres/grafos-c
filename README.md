@@ -105,3 +105,28 @@ Escolha o grafo de teste:
 Opcao: 2
 Vertice de origem (1-10): 3
 Vertice de destino (1-10): 10
+```
+
+### Saída esperada
+
+```
+Custo total: 2920
+Caminho: 3 -> 6 -> 7 -> 10
+```
+
+### Interpretação do resultado
+
+O caminho encontrado pelo algoritmo é:
+
+- 3: Curitiba  
+- 6: Belo Horizonte  
+- 7: Brasília  
+- 10: Recife  
+
+Com custo total (distâncias somadas):
+
+- Curitiba → Belo Horizonte = 900  
+- Belo Horizonte → Brasília = 720  
+- Brasília → Recife = 1300  
+
+Total: 900 + 720 + 1300 = 2920
